@@ -4,7 +4,9 @@ import { SideBar } from "./components/SideBar";
 function App() {
   return (
     <>
-      <SideBar></SideBar>
+      <div className="flex">
+        <SideBar />
+      </div>
     </>
   );
 }
